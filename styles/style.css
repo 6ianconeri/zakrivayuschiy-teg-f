@@ -14,7 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: 'wgth' var(--text-font-weight);
+  font-variation-settings: 'wght' var(--text-font-weight);
   padding-top: 100px;
   padding-right: var(--main-padding);
   padding-left: var(--main-padding);
@@ -83,7 +83,7 @@
 
 .card__title {
   font-family: var(--main-font), sans-serif;
-  font-variation-settings: 'wgth' var(--title-font-weight);
+  font-variation-settings: 'wght' var(--title-font-weight);
   font-size: var(--card-text-size);
   padding-top: clamp(0.1875rem, 0.1655rem + 0.0939vw, 0.25rem);
   padding-left: 10px;
@@ -118,7 +118,7 @@
   display: flex;
   flex-direction: column;
   font-family: var(--main-font);
-  font-variation-settings: 'wgth' var(--title-font-weight);
+  font-variation-settings: 'wght' var(--title-font-weight);
   font-size: var(--card-text-size);
   line-height: 21px;
   gap: 27px;
