@@ -83,7 +83,7 @@
 
 .card__title {
   font-family: var(--main-font), sans-serif;
-  font-weight: var(--title-font-weight);
+  font-variation-settings: 'wdth' var(--title-font-weight);
   font-size: var(--card-text-size);
   padding-top: clamp(0.1875rem, 0.1655rem + 0.0939vw, 0.25rem);
   padding-left: 10px;
@@ -118,7 +118,7 @@
   display: flex;
   flex-direction: column;
   font-family: var(--main-font);
-  font-weight: var(--text-font-weight);
+  font-variation-settings: 'wdth' var(--title-font-weight);
   font-size: var(--card-text-size);
   line-height: 21px;
   gap: 27px;
@@ -249,7 +249,7 @@
 }
 
 .filter__sepia {
-  filter: sepia(60%);
+  filter: sepia(60%) contrast(300%);
 }
 
 .filter__saturate {
@@ -297,8 +297,6 @@
   color: var(--main-bg-color);
   mix-blend-mode: difference;
 }
-
-
 
 @supports (text-stroke: var(--text-stroke)) {
   .card__label {
