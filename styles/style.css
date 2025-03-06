@@ -151,6 +151,7 @@
   border: 2px solid transparent;
   padding: 0;
   transition: border-color 0.3s ease;
+  cursor: pointer;
 }
 
 .card__like-button {
@@ -158,6 +159,7 @@
   height: 38px;
   border: 2px solid var(--main-color);
   transition: box-shadow 0.3s ease;
+  cursor: pointer;
 }
 
 .button__text {
@@ -176,6 +178,7 @@
   height: 55px;
   gap: 8px;
   border: 2px solid var(--main-color);
+  cursor: pointer;
 }
 
 .save__button-text, .dialog__diskette-text, .dialog__button-text {
@@ -196,7 +199,7 @@
   justify-content: center;
   gap: 30px;
   padding: 30px;
-  width: 353px;
+  max-width: 353px;
 }
 
 .dialog__content {
@@ -221,6 +224,7 @@
   width: 288px;
   height: 38px;
   border: 2px solid var(--main-color);
+  cursor: pointer;
 }
 
 .dialog__button-text {
