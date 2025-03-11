@@ -41,7 +41,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-family: var(--accent-font), 'fantasy';
+  font-family: var(--accent-font), fantasy;
   font-weight: var(--text-font-weight);
   border: 2px solid var(--main-color);
   text-transform: uppercase;
@@ -108,7 +108,7 @@
   position: absolute;
   inset-block-start: 28px;
   inset-inline-end: 25px;
-  font-family: var(--accent-font), 'fantasy';
+  font-family: var(--accent-font), fantasy;
   font-weight: var(--text-font-weight);
   font-size: var(--accent-text-size);
   text-shadow: 0 0 1px rgba(255, 255, 255, 0.5);
@@ -165,7 +165,7 @@
 
 .button__text {
   position: relative;
-  font-family: var(--accent-font), 'fantasy';
+  font-family: var(--accent-font), fantasy;
   font-size: var(--accent-text-size);
   font-weight: var(--text-font-weight);
   color: var(--main-bg-color);
@@ -217,6 +217,7 @@
 }
 
 .dialog__diskette-text {
+  font-family: var(--accent-font);
   text-transform: uppercase;
   line-height: 21px;
 }
